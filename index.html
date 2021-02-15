@@ -23,15 +23,24 @@
 <body>
     <!-- Navigation -->
     <header>
-        <a href="index.html"><img src="images/logo.png" alt="Dunder Mifflin logo"></a>
+        <nav id="navbar" class="navbar navbar-light navbar-expand-md bg-transparent position-absolute w-100">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Dunder Mifflin logo" width="75"></a>
+      
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <nav>
-            <ul>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="activities.html">Activities</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+                <div id="navbarResponsive" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
