@@ -86,3 +86,11 @@ main .video iframe {
   display: flex;
   margin: auto;
 }
+footer #newsletter {
+  background-color: #80d8fe;
+  padding: 5rem;
+}
+footer #newsletter .form-control {
+  max-width: 30rem;
+  margin-right: 1rem;
+}
