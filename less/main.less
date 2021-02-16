@@ -1,1 +1,101 @@
+@import "variables";
 
+header {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  nav {
+    ul.navbar-nav {
+      margin-left: auto;
+    }
+  }
+  section {
+    background-color: @dark-blue-rgb;
+    padding: 2rem;
+    max-width: 500px;
+    .btn-info {
+      background-color: @dark-grey;
+      border-color: @dark-grey;
+      color: @white;
+      &:hover {
+        background-color: @light-grey;
+        border-color: @light-grey;
+      }
+    }
+  }
+}
+
+main {
+  .container {
+    margin: 8rem auto;
+    section {
+      img {
+        max-width: 650px;
+        margin-bottom: 2rem;
+        margin-left: auto;
+      }
+      article {
+        margin-right: auto;
+        .btn-primary {
+          background-color: @dark-blue;
+          border-color: @dark-blue;
+          &:hover {
+            background-color: @light-blue;
+            border-color: @light-blue;
+          }
+        }
+        .btn-secondary {
+          background-color: @green;
+          border-color: @green;
+          &:hover {
+            background-color: @green + #222222;
+            border-color: @green + #222222;
+          }
+        }
+      }
+    }
+  }
+  #products {
+    h3 {
+      background-image: url("../images/brochures.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 180px 0;
+      margin-bottom: 2rem;
+      color: @white;
+    }
+  }
+  #activities {
+    h3 {
+      background-image: url("../images/crafts.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 180px 0;
+      margin-bottom: 2rem;
+      color: @white;
+    }
+    article {
+      margin-left: auto;
+    }
+  }
+  #contact {
+    h3 {
+      background-image: url("../images/pam.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 180px 0;
+      margin-bottom: 2rem;
+      color: @white;
+    }
+  }
+  .video {
+    background-color: @light-grey;
+    padding: 5rem;
+    iframe {
+      max-width: 560px;
+      width: 100%;
+      display: flex;
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,88 @@
+header {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header nav ul.navbar-nav {
+  margin-left: auto;
+}
+header section {
+  background-color: rgba(2, 85, 225, 0.7);
+  padding: 2rem;
+  max-width: 500px;
+}
+header section .btn-info {
+  background-color: #333333;
+  border-color: #333333;
+  color: #ffffff;
+}
+header section .btn-info:hover {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+main .container {
+  margin: 8rem auto;
+}
+main .container section img {
+  max-width: 650px;
+  margin-bottom: 2rem;
+  margin-left: auto;
+}
+main .container section article {
+  margin-right: auto;
+}
+main .container section article .btn-primary {
+  background-color: #0255e1;
+  border-color: #0255e1;
+}
+main .container section article .btn-primary:hover {
+  background-color: #80d8fe;
+  border-color: #80d8fe;
+}
+main .container section article .btn-secondary {
+  background-color: #8fc823;
+  border-color: #8fc823;
+}
+main .container section article .btn-secondary:hover {
+  background-color: #b1ea45;
+  border-color: #b1ea45;
+}
+main #products h3 {
+  background-image: url("../images/brochures.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180px 0;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+main #activities h3 {
+  background-image: url("../images/crafts.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180px 0;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+main #activities article {
+  margin-left: auto;
+}
+main #contact h3 {
+  background-image: url("../images/pam.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180px 0;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+main .video {
+  background-color: #cccccc;
+  padding: 5rem;
+}
+main .video iframe {
+  max-width: 560px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}

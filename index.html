@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <!-- Navigation -->
+    <!-- Navbar component-->
     <header class="vh-100 d-flex flex-wrap">
         <nav id="navbar" class="navbar navbar-light navbar-expand-md bg-transparent align-self-start w-100">
             <div class="container">
@@ -44,50 +44,72 @@
         </nav>
 
         <!-- Banner -->
-        <section class="container align-self-center">
-            <h1>People person's paper people</h1>
-            <p>Lorem ipsum dolor sit amet, consectetuer dipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-            <a class="btn btn-secondary" href="about.html">Read More</a>
-        </section>
+        <div class="container d-flex">
+            <section class="align-self-center">
+                <h1>People person's paper people</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer dipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
+                <!-- Button component -->
+                <a class="btn btn-info" href="about.html">Read More</a>
+            </section>
+        </div>
     </header>
 
     <main>
         <!-- Products -->
-        <section>
-            <img src="images/brochures.jpg" alt="Paint brochures and samples">
+        <div id="products" class="container">
+            <section class="row flex-md-row-reverse">
+                    
+                <h3 class="col-md-7 text-center">Products</h3>
 
-            <article>
-                <h2>Quality assured</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer dipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-                <a href="products.html">Shop Now</a>
-            </article>
-        </section>
+                <div class="col-md-1"></div>
+
+                <article class="col-md-4 align-self-center">
+                    <h2>Quality assured</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer dipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
+                    <a class="btn btn-primary" href="products.html">Shop Now</a>
+                </article>
+            </section>
+        </div>
         
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/cS9qCre_sv8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cS9qCre_sv8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
         <!-- Activities -->
-        <section>
-            <img src="images/crafts.jpg" alt="child doing crafts">
+        <div id="activities" class="container">
+            <section class="row flex-md-row">
 
-            <article>
-                <h2>Have fun!</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer dipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-                <a href="activities.html">Explore</a>
-            </article>
-        </section>
+                <h3 class="col-md-7 text-center">Activities</h3>
+                
+                <div class="col-md-1"></div>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/NM4yQV8ZoHY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <article class="col-md-4 align-self-center">
+                    <h2>Have fun!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer dipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
+                    <a class="btn btn-secondary" href="activities.html">Explore</a>
+                </article>
+            </section>
+        </div>
+
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NM4yQV8ZoHY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
         <!-- Contact -->
-        <section>
-            <img src="images/pam.jpg" alt="Receptionist on the phone">
+        <div id="contact" class="container">
+            <section class="row d-flex flex-md-row-reverse">
 
-            <article>
-                <h2>Connect with us</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer dipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-                <a href="contact.html">Contact Us</a>
-            </article>
-        </section>
+                <h3 class="col-md-7 text-center">Contact</h3>
+                
+                <div class="col-md-1"></div>
+
+                <article class="col-md-4 align-self-center">
+                    <h2>Connect with us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer dipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
+                    <a class="btn btn-secondary" href="contact.html">Contact Us</a>
+                </article>
+            </section>
+        </div>
     </main>
 
     <footer>
@@ -99,7 +121,7 @@
             </div>
 
             <div>
-                <h3>Email address</h3>
+                <h4>Email address</h4>
                 <a href="#">Subscribe</a>
             </div>
         </section>
