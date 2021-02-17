@@ -1,5 +1,28 @@
+.bgImg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180px 0;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+body {
+  font-family: "Helvetica", sans-serif;
+  color: #333333;
+}
+h2,
+h1 {
+  font-family: "Anton", sans-serif;
+}
 .logo {
   width: 75px;
+}
+h3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180px 0;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  font-weight: 700;
 }
 .btn-info {
   background-color: #333333;
@@ -34,8 +57,11 @@ header {
 header nav ul.navbar-nav {
   margin-left: auto;
 }
+header nav ul.navbar-nav .nav-item {
+  font-weight: 700;
+}
 header section {
-  background-color: rgba(2, 85, 225, 0.7);
+  background-color: rgba(2, 85, 225, 0.8);
   padding: 2rem;
   max-width: 500px;
 }
@@ -52,34 +78,19 @@ main .container section article {
 }
 main #products h3 {
   background-image: url("../images/brochures.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 180px 0;
-  margin-bottom: 2rem;
-  color: #ffffff;
 }
 main #activities h3 {
   background-image: url("../images/crafts.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 180px 0;
-  margin-bottom: 2rem;
-  color: #ffffff;
 }
 main #activities article {
   margin-left: auto;
 }
 main #contact h3 {
   background-image: url("../images/pam.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 180px 0;
-  margin-bottom: 2rem;
-  color: #ffffff;
 }
 main .video {
   background-color: #cccccc;
-  padding: 5rem;
+  padding: 5rem 0;
 }
 main .video iframe {
   max-width: 560px;
