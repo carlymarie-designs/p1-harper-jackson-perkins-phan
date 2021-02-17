@@ -25,7 +25,7 @@
     <header class="vh-100 d-flex flex-wrap">
         <nav id="navbar" class="navbar navbar-light navbar-expand-md bg-transparent align-self-start w-100">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Dunder Mifflin logo" width="75"></a>
+                <a class="logo navbar-brand" href="index.html"><img class="logo" src="images/logo.png" alt="Dunder Mifflin logo"></a>
       
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -114,9 +114,9 @@
 
     <footer>
         <!-- Newsletter -->
-        <div id="newsletter" class="container-fluid">
+        <div id="newsletter" class="container">
             <section class="row d-flex flex-md-row flex-wrap">
-                <div class="col-lg-4">
+                <div class="col-lg-4 text-center">
                     <h2>Newsletter</h2>
                     <p>Lorem ipsum dolor sit amet, consectetuer dipiscing.</p>
                 </div>
@@ -124,7 +124,7 @@
                 <div class="col-lg-1"></div>
 
                 <div class="col-lg-7">
-                    <div class="d-flex flex-wrap">
+                    <div class="container d-flex flex-wrap">
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
 
                         <a class="btn btn-primary" href="#">Subscribe</a>
@@ -133,42 +133,56 @@
             </section>
         </div>
 
-        <!-- Footer -->
-        <section>
-            <img src="images/logo.png" alt="Dunder Mifflin logo">
+        <!-- Main footer -->
+        <section id="grey-bg">
+            <div id="footer" class="container">
+                <div class="row d-flex flex-xs-row flex-wrap">
+                    <a class="logo col-2" href="index.html"><img class="logo" src="images/logo.png" alt="Dunder Mifflin logo"></a>
 
-            <div>
-                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
-                <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
-                <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
-                <a href="#"><img src="images/phone.png" alt="Phone"></a>
-            </div>
+                    <!-- <div class="col-"></div> -->
 
-            <div>
-                <p>1725 Slough Avenue</p>
-                <p>Scranton, PA 18505</p>
-            </div>
+                    <div class="col-10 d-flex">
+                        <div>
+                            <p>1725 Slough Avenue</p>
+                            <p>Scranton, PA 18505</p>
+                        
+                            <p class="blue">555-555-5555</p>
+                            <p class="blue">support@dm.com</p>
+                        </div>
+                    </div>
+                </div>
 
-            <div>
-                <p>555-555-5555</p>
-                <p>support@dm.com</p>
-            </div>
+                <div id="social">
+                    <a href="#"><img class="icon" src="images/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img class="icon" src="images/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img class="icon" src="images/linkedin.png" alt="LinkedIn"></a>
+                    <a href="#"><img class="icon" src="images/youtube.png" alt="YouTube"></a>
+                    <a href="#"><img class="icon" src="images/phone.png" alt="Phone"></a>
+                </div>
 
-            <div>
-                <a href="#">Products</a>
-                <a href="#">Activities</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-            </div>
-
-            <!-- Legal -->
-            <div>
-                <p>Privacy Policy</p>
-                <p>Terms of Services</p>
-                <p>&copy 2021 Dunder Mifflin, Inc. All Rights Reserved.</p>
+                <div id="quicklinks" class="d-flex justify-content-center">
+                    <div class="wrapper text-center d-flex flex-md-row">
+                        <a class="nav-link" href="#">Products</a>
+                        <a class="nav-link" href="#">Activities</a>
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Contact</a>
+                    </div>
+                </div>
             </div>
         </section>
+
+        <!-- Legal -->
+        <div id="white-bg">
+            <div class="container">
+                <div class="row d-flex flex-sm-row flex-wrap">
+                    <div class="col-3"></div>
+                    <p class="col-3 text-center">Privacy Policy</p>
+                    <p class="col-3 text-center">Terms of Services</p>
+                    <div class="col-3"></div>
+                    <p class="text-center">&copy 2021 Dunder Mifflin, Inc. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
