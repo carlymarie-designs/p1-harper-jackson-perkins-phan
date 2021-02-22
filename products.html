@@ -28,7 +28,7 @@
     
     <body>
         <!-- Navbar component-->
-        <header class="vh-100 d-flex flex-wrap">
+        <header id="products-header" class="vh-100 d-flex flex-wrap">
             <nav id="navbar" class="navbar navbar-light navbar-expand-md bg-transparent align-self-start w-100">
                 <div class="container">
                     <a class="logo navbar-brand" href="index.html"><img class="logo" src="images/logo.png" alt="Dunder Mifflin logo"></a>
@@ -50,41 +50,76 @@
             </nav>
 
             <!-- Banner -->
-            <div class="container d-flex">
+            <div class="container d-flex justify-content-center align-items-center">
                 <section class="align-self-center">
-                    <h1>People person's paper people</h1>
+                    <h1>Products</h1>
                     <p>Lorem ipsum dolor sit amet, consectetuer dipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing.</p>
-                    <!-- Button component -->
-                    <a class="btn btn-info" href="about.html">Read More</a>
                 </section>
             </div>
         </header>
 
-        <main>
-            <section>
+        <!-- Products Section -->
+        <main id="main-products">
+            <section class="container">  
+                <div class="row">
 
-                <img src="images/products.jpg" alt="White piece of paper on desk with keyboard and sharpie"> 
-                <h2>Paper</h2>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut. labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident.</p>
-                <button>Explore Options</button>
+                    <!-- Paper -->
+                    <div class="col-sm">
+                        <div class="card text-white">
+                            <img class="product-img" src="images/paper.jpg" alt="White piece of paper on desk with keyboard and sharpie">
+                            <div class="card-img-overlay copy">
+                              <h2 class="card-title">Paper</h2>
+                              <p class="card-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut. labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident.</p>
+                              <button type="button" class="btn btn-light">Explore Options</button>
+                            </div>
+                          </div>
+                    </div>
 
-                <img src="images/cardstock.jpg" alt="White piece of paper on desk with keyboard and sharpie"> 
-                <h2>Paper</h2>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut. labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident.</p>
-                <button>Explore Options</button>
+                    <!-- Cardstock -->
+                    <div class="col-sm">
+                        <div class="card text-white">
+                            <img class="product-img" src="images/cardstock.jpg" alt="Pieces of different colored cardstock">
+                            <div class="card-img-overlay copy">
+                              <h2 class="card-title">Cardstock</h2>
+                              <p class="card-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut. labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident.</p>
+                              <button type="button" class="btn btn-light">Explore Options</button>
+                            </div>
+                          </div>
+                    </div>
 
-                <img src="images/envelopes.jpg" alt="White piece of paper on desk with keyboard and sharpie"> 
-                <h2>Paper</h2>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut. labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident.</p>
-                <button>Explore Options</button>
+                </div>
 
-                <img src="images/digital.jpg" alt="White piece of paper on desk with keyboard and sharpie"> 
-                <h2>Paper</h2>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut. labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident.</p>
-                <button>Explore Options</button>
+                <div class="row">
+                    
+                    <!-- Envelopes -->
+                    <div class="col-sm">
+                        <div class="card text-white">
+                            <img class="product-img" src="images/envelopes.jpg" alt="Envelopes stacked on top of eachother">
+                            <div class="card-img-overlay copy">
+                            <h2 class="card-title">Envelopes</h2>
+                            <p class="card-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut. labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident.</p>
+                            <button type="button" class="btn btn-light">Explore Options</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Digital -->
+                    <div class="col-sm">
+                        <div class="card text-white">
+                            <img class="product-img" src="images/digital.jpg" alt="Pieces of different colored cardstock">
+                            <div class="card-img-overlay copy">
+                            <h2 class="card-title">Digital</h2>
+                            <p class="card-text">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut. labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident.</p>
+                            <button type="button" class="btn btn-light">Explore Options</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </section>
 
-            <section>
+            <section class="about-products">
                 <h2>About Dunder Mifflin Products</h2>
                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est.</p>
                 <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est. Lorem ipsum dolor sit amet.</p>

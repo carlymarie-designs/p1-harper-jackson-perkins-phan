@@ -65,6 +65,17 @@ header section {
   padding: 2rem;
   max-width: 500px;
 }
+#products-header {
+  background-image: url("../images/banner_products.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#products-header section {
+  background-color: rgba(143, 200, 35, 0.8);
+  padding: 2rem;
+  max-width: 500px;
+  text-align: center;
+}
 main .container {
   margin: 8rem auto;
 }
@@ -95,10 +106,35 @@ main .video {
 main .video iframe {
   max-width: 560px;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: auto;
+}
+#main-products .container {
+  margin: 1rem auto;
+  max-width: 100%;
+}
+.product-img {
+  width: 100%;
+  max-width: 500px;
+}
+.card {
+  max-width: 500px;
+  margin-bottom: 15px;
+  border: none;
+}
+p {
+  font-size: .7rem;
+}
+.copy {
+  padding: 18% 6% 0 9%;
+  max-width: 475px;
+}
+.btn-light {
+  background-color: #ffffff;
+  font-size: .7rem;
+}
+.about-products {
+  margin: 15px;
 }
 footer {
   background-color: #80d8fe;
@@ -139,9 +175,7 @@ footer #white-bg {
 }
 @media (min-width: 467px) {
   #footer .col-10 {
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
     margin-left: auto !important;
     margin-top: 0 !important;
   }

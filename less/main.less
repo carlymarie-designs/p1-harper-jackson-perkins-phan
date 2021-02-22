@@ -68,6 +68,18 @@ header {
   }
 }
 
+#products-header {
+  background-image: url("../images/banner_products.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  section {
+    background-color: @green-rgb;
+    padding: 2rem;
+    max-width: 500px;
+    text-align: center;
+  }
+}
+
 // *******************Main styles*******************
 main {
   .container {
@@ -111,6 +123,40 @@ main {
       margin: auto;
     }
   }
+}
+
+// ************* Main Product Page Styles ************
+#main-products {
+  .container {
+    margin: 1rem auto;
+    max-width: 100%;
+  }
+}
+  .product-img {
+    width: 100%;
+    max-width: 500px; 
+  }
+
+  .card {
+    max-width: 500px;
+    margin-bottom: 15px; 
+    border: none; 
+  }
+    p {
+      font-size: .7rem;
+    }
+
+  .copy {
+    padding: 18% 6% 0 9%; 
+    max-width: 475px;
+  }
+    .btn-light {
+      background-color: @white;
+      font-size: .7rem;
+    }
+
+.about-products {
+  margin: 15px; 
 }
 
 // *******************Footer styles*******************
