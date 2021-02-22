@@ -141,11 +141,10 @@ main {
     max-width: 500px;
     margin-bottom: 15px; 
     border: none; 
-  }
     p {
       font-size: .7rem;
     }
-
+}
   .copy {
     padding: 18% 6% 0 9%; 
     max-width: 475px;
@@ -156,7 +155,7 @@ main {
     }
 
 .about-products {
-  margin: 15px; 
+  margin: 25px 40px 40px 50px;
 }
 
 // *******************Footer styles*******************
@@ -207,6 +206,19 @@ footer {
       justify-content: flex-end;
       margin-left: auto !important;
       margin-top: 0 !important;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .card {
+    p {
+      font-size: 1rem;
+    }
+  }
+  .copy {
+    .btn-light {
+      font-size: 1rem;
     }
   }
 }

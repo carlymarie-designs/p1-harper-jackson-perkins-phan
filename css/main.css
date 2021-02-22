@@ -122,7 +122,7 @@ main .video iframe {
   margin-bottom: 15px;
   border: none;
 }
-p {
+.card p {
   font-size: .7rem;
 }
 .copy {
@@ -134,7 +134,7 @@ p {
   font-size: .7rem;
 }
 .about-products {
-  margin: 15px;
+  margin: 25px 40px 40px 50px;
 }
 footer {
   background-color: #80d8fe;
@@ -178,6 +178,14 @@ footer #white-bg {
     justify-content: flex-end;
     margin-left: auto !important;
     margin-top: 0 !important;
+  }
+}
+@media (min-width: 800px) {
+  .card p {
+    font-size: 1rem;
+  }
+  .copy .btn-light {
+    font-size: 1rem;
   }
 }
 @media (min-width: 992px) {
