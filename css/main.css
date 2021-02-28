@@ -70,6 +70,9 @@ header section {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#products-header .section-center {
+  margin: auto;
+}
 #products-header section {
   background-color: rgba(143, 200, 35, 0.8);
   padding: 2rem;
