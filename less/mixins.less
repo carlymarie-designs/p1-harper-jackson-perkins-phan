@@ -7,3 +7,19 @@
   margin-bottom: 2rem;
   color: @white;
 }
+
+
+.trans-bg (@color: @red) {
+	position: relative;
+
+	&:after {
+		background-color: @color;
+		content: '';
+		right: 0;
+		left: 0;
+		bottom: 0;
+		top: 0;
+		position: absolute;
+		z-index: -5;
+	}
+}

@@ -66,6 +66,12 @@ header {
     padding: 2rem;
     max-width: 500px;
   }
+
+  &.about {
+    section{
+      background-color:  rgba(@red, .8);
+    }
+  }
 }
 
 #products-header {
@@ -124,6 +130,27 @@ main {
       width: 100%;
       display: flex;
       margin: auto;
+    }
+  }
+}
+
+// ******************* About Us *******************
+.about-us {
+  .about-us-content {
+    .trans-bg( @dark-blue-rgb );
+    background-image: url('../images/our-story.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding: 130px 50px;
+    z-index: 5;
+    color:  #fff;
+
+    p {
+      width: 40%;
+
+      @include media-breakpoint-down(md) {
+        width: 90%;
+      }
     }
   }
 }

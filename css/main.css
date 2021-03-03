@@ -65,6 +65,9 @@ header section {
   padding: 2rem;
   max-width: 500px;
 }
+header.about section {
+  background-color: rgba(255, 0, 0, 0.8);
+}
 #products-header {
   background-image: url("../images/banner_products.jpg");
   background-repeat: no-repeat;
@@ -112,6 +115,31 @@ main .video iframe {
   display: flex;
   margin: auto;
 }
+.about-us .about-us-content {
+  position: relative;
+  background-image: url('../images/our-story.jpg');
+  background-size: cover;
+  background-position: center center;
+  padding: 130px 50px;
+  z-index: 5;
+  color: #fff;
+}
+.about-us .about-us-content:after {
+  background-color: rgba(2, 85, 225, 0.8);
+  content: '';
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  position: absolute;
+  z-index: -5;
+}
+.about-us .about-us-content p {
+  width: 40%;
+}
+@include media-breakpoint-down(md) {
+  width: 90%;
+}
 #main-products .container {
   margin: 1rem auto;
   max-width: 1050px;
@@ -126,7 +154,7 @@ main .video iframe {
   border: none;
 }
 .card p {
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 .copy {
   padding: 18% 6% 0 9%;
@@ -134,7 +162,7 @@ main .video iframe {
 }
 .btn-light {
   background-color: #ffffff;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
 .about-products {
   margin: 55px 40px 40px 50px;
